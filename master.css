@@ -16,16 +16,31 @@ body {
     rgba(167, 106, 216, 0.6),
     rgba(27, 81, 229, 0.8));
   padding: 10px;
-  height: 125px;
   border-radius: 0px 0px 10px 10px;
 }
 
 .title {
   border: 1px solid black;
-  width: 250px;
+  width: 300px;
   display: inline-block;
   background-image: linear-gradient(
     to top left,
     rgba(96, 214, 133, 0.7),
     rgba(216, 190, 41, 0.8));
+}
+
+.body {
+  background-image: linear-gradient(to bottom,
+    rgba(244, 78, 66, .15), rgba(65, 244, 92, .15));
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.songbutton {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(to right, rgba(255, 20, 220, .1), rgba(255, 120, 30, .1));
 }
