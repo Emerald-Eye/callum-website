@@ -1,0 +1,42 @@
+* {
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  text-align: center;
+  background-image: linear-gradient(to bottom right,
+    rgba(167, 106, 216, 0.6),
+    rgba(27, 81, 229, 0.8));
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.title {
+  border: 1px solid black;
+  width: 300px;
+  display: inline-block;
+  background-image: linear-gradient(to top left,
+    rgba(96, 214, 133, 0.7),
+    rgba(216, 190, 41, 0.8));
+}
+
+.body {
+  background-image: linear-gradient(to bottom,
+    rgba(244, 78, 66, .15),
+    rgba(65, 244, 92, .15));
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.img {
+  border-radius: 10px;
+  float: left;
+  padding: 0 15px;
+}

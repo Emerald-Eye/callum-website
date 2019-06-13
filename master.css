@@ -57,10 +57,11 @@ body {
 
 .songbutton {
   -webkit-animation-name: un-shadow-gen;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
   animation-name: un-shadow-gen;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
   padding: 0px;
   border-radius: 10px;
   border: 1px solid blue;
@@ -73,9 +74,10 @@ body {
 
 .songbutton:hover {
   -webkit-animation-name: shadow-gen;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
   animation-name: shadow-gen;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
@@ -87,4 +89,5 @@ body {
   border-top: 1px solid black;
   text-align: center;
   padding: 4px;
+  text-decoration: none;
 }
