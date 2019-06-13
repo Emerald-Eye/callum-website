@@ -1,0 +1,24 @@
+* {
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  text-align: center;
+  background-color: magenta;
+  padding: 10px;
+  height: 125px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.title {
+  border: 1px solid black;
+  width: 250px;
+  display: inline-block;
+}
