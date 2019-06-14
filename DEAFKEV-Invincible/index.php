@@ -27,6 +27,8 @@
       <source src="../music/DEAF KEV - Invincible [NCS Release].mp3"
       type="audio/mpeg">
     </audio>
+		<p>Don't refresh the page after posting a comment!</p>
+		<p>Doing this will result in <b>Reposting the comment!</b></p>
     <!-- Comments Section -->
     <form action="" method="POST">
       <label> Name:
