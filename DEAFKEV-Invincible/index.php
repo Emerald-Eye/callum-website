@@ -30,14 +30,14 @@
     <!-- Comments Section -->
     <form action="" method="POST">
       <label> Name:
-        <input type="text" name="Name" class="Input" style="width: 225px" required>
+        <input type="text" name="Name" style="width: 225px" required>
       </label>
       <br><br>
       <label> Comment: <br>
-        <textarea name="Comment" class="Input" style="width: 300px" required></textarea>
+        <textarea name="Comment" style="width: 300px" required></textarea>
       </label>
       <br><br>
-      <input type="submit" name="Submit" value="Submit Comment" class="Submit">
+      <input type="submit" name="Submit" value="Submit Comment">
   </form>
 	</div>
   <script src="script.js" charset="utf-8"></script>
@@ -47,8 +47,6 @@
 <?php
 
  if($_POST['Submit']){
-  print "<h1>Your comment has been submitted!</h1>";
-
   $Name = $_POST['Name'];
   $Comment = $_POST['Comment'];
 
@@ -58,7 +56,7 @@
 
   #Delete everything, write down new and old comments
   $write = fopen("comments.txt", "w+");
-  $string = "<b>".$Name."</b><br>".$Comment."<br>\n".$old_comments;
+  $string = "<b>".$Name.":</b><br>".$Comment."<br><br>\n".$old_comments;
   fwrite($write, $string);
   fclose($write);
   fclose($old);
