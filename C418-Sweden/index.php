@@ -13,7 +13,7 @@
 	</div>
 	<div class="body">
     <p style="margin-top: 20px; font-size: 25px;">
-      <img src="../res/C418 - Sweden Cover Art.jpg"
+      <img src="../res/C418 - Sweden Cover Art.png"
     alt="Cover Art" width="250px" height="250px" class="img">
 		C148 - Sweden</p>
     <br>
@@ -21,6 +21,7 @@
       <source src="../music/C418 - Sweden.mp3"
       type="audio/mpeg">
     </audio>
+		<br><br>
 		<p>Don't refresh the page after posting a comment!</p>
 		<p>Doing this will result in <b>Reposting the comment!</b></p>
     <!-- Comments Section -->
