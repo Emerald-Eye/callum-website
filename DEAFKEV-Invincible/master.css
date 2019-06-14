@@ -25,6 +25,7 @@ body {
   background-image: linear-gradient(to top left,
     rgba(96, 214, 133, 0.7),
     rgba(216, 190, 41, 0.8));
+  cursor: default;
 }
 
 .body {
