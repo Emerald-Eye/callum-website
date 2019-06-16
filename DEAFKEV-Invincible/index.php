@@ -29,18 +29,6 @@
     </audio>
 		<p>Don't refresh the page after posting a comment!</p>
 		<p>Doing this will result in <b>Reposting the comment!</b></p>
-    <!-- Comments Section -->
-    <form action="" method="POST">
-      <label> Name:
-        <input type="text" name="Name" style="width: 225px" required>
-      </label>
-      <br><br>
-      <label> Comment: <br>
-        <textarea name="Comment" style="width: 300px" required></textarea>
-      </label>
-      <br><br>
-      <input type="submit" name="Submit" value="Submit Comment">
-  </form>
 	</div>
   <script src="script.js" charset="utf-8"></script>
 </body>
@@ -48,25 +36,6 @@
 
 <?php
 
- if($_POST['Submit']){
-  $Name = $_POST['Name'];
-  $Comment = $_POST['Comment'];
-
-  #Get old comments
-  $old = fopen("comments.txt", "r+t");
-  $old_comments = fread($old, 1024);
-
-  #Delete everything, write down new and old comments
-  $write = fopen("comments.txt", "w+");
-  $string = "<b>".$Name.":</b><br>".$Comment."<br><br>\n".$old_comments;
-  fwrite($write, $string);
-  fclose($write);
-  fclose($old);
- }
-
- #Read comments
- $read = fopen("comments.txt", "r+t");
- echo "<br><br>Comments<hr>".fread($read, 1024);
- fclose($read);
+ echo "Comments section in progress!"
 
 ?>
