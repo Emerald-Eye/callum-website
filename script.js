@@ -5,3 +5,7 @@ function gohome() {
 function gotosong(url) {
   window.location.href = url;
 }
+
+function login() {
+  window.location.href = "Login"
+}
