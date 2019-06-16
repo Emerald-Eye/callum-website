@@ -14,7 +14,7 @@
 	<div class="body">
     <p style="margin-top: 20px; font-size: 25px;">
       <img src="../res/C418 - Sweden Cover Art.png"
-    alt="Cover Art" width="250px" height="250px" class="img">
+    alt="Cover Art" width="250px" height="220px" class="img">
 		C148 - Sweden</p>
     <br>
     <audio controls controlsList="nodownload" id="noContextMenu">
