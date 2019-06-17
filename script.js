@@ -1,5 +1,5 @@
 function gohome() {
-  window.location.href = "/";
+  window.location.href = "../";
 }
 
 function gotosong(url) {
