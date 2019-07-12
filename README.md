@@ -1,2 +1,2 @@
 # music-callums-website
-music.callumwong.com
+music.callumwong.com is the website.
