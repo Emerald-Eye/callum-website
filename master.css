@@ -98,14 +98,3 @@ body {
 .songprev {
   border-radius: 10px 10px 0px 0px;
 }
-
-.leave {
-  position: absolute;
-  border-radius: 5px;
-  width: 60px;
-  height: 21px;
-  border: 1px solid black;
-  cursor: pointer;
-  background-color: blue;
-  color: white;
-}
