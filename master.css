@@ -23,7 +23,7 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: #eee;
   border: 0px;
   padding: 0px;
   margin: 0px;
@@ -95,15 +95,17 @@ body {
   text-decoration: none;
 }
 
-.loginbutton {
-  float: right;
-  padding: 10px;
-  border-radius: 10px;
-  background-image: linear-gradient(to left,
-     rgba(255, 255, 0, 0.5),
-     rgba(0, 255, 255, 0.5));
-}
-
 .songprev {
   border-radius: 10px 10px 0px 0px;
+}
+
+.leave {
+  position: absolute;
+  border-radius: 5px;
+  width: 60px;
+  height: 21px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
 }
